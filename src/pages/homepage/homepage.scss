@@ -1,0 +1,26 @@
+.homepage {
+    position: relative;
+
+    .search-bar {
+        background-color: #f3f6fb;
+        padding: 20px 20%;
+    }
+
+    .events {
+        max-width: 1080px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .event-card {
+            width: 29%;
+            margin: 20px 2%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .homepage {
+        width: 90%;
+    }
+}

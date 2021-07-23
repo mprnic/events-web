@@ -1,0 +1,36 @@
+.event {
+    max-width: 1080px; 
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .event-card {
+        width: 450px;
+        height: fit-content;
+    }
+
+    .ticket-card {
+        width: 550px;
+        margin-bottom: 20px;
+
+        .payment {
+            margin-top: 20px !important;
+        }
+
+        .credit-card {
+            margin-top: 10px;
+        }
+
+        .buy-button {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .event {
+        width: 90%;
+        flex-direction: column;
+    }
+}
